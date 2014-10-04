@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+body {
+  background: #d4d4d4 url("../images/background.png");
+  text-align: center;
+  font-family: sans-serif; }
+
+h1 {
+  color: rgba(0, 0, 0, .3);
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  background: url("../images/middleman.png") no-repeat center 100px;
+  padding: 350px 0 10px;
+  margin: 0; }
+
+.doc {
+  font-size: 14px;
+  margin: 0; }
+  .doc:before,
+  .doc:after {
+    opacity: .2;
+    padding: 6px;
+    font-style: normal;
+    position: relative;
+    content: "•"; }
+  .doc a {
+    color: rgba(0, 0, 0, 0.3); }
+    .doc a:hover {
+      color: #666; }
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s; }
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+* {
+margin:0;
+padding:0;
+border:0;
+outline:none;
+list-style:none;
+}
+
+a {color:#eee9e0;}
+
+body {
+color:#ce9643;
+font-family:'NimbusSanDW01ConBold', arial;
+background:#efe5db;
+}
+
+h1 {
+background:url('images/logo.png') no-repeat 50% 50%;
+width:100%;
+height:265px;
+}
+
+#header {
+background:#efe5db url('images/bg-header.png');
+width:100%;
+height:265px;
+}
+
+#arrow {
+position:absolute;
+background:url('images/arrow.png') no-repeat top left;
+top:265px;
+left:100px;
+width:45px;
+height:44px;
+z-index:2;
+}
+
+#content {
+color:#ce9643;
+width:100%;
+height:515px;
+background:#f2bf55;
+}
+
+#content2 {
+width:745px;
+padding-top:80px;
+margin:0 auto;
+}
+
+#iphone {
+float:left;
+width:193px;
+height:398px;
+background:url('images/iphone.png') no-repeat top left;
+}
+
+h2 {
+float:right;
+width:500px;
+height:175px;
+margin-top:30px;
+text-transform:uppercase;
+font-size:48pt;
+line-height:54px;
+letter-spacing:-1pt;
+color:#e2892c;
+font-weight:normal;
+}
+
+h3 {
+float:left;
+width:140px;
+height:190px;
+margin:35px 0 0 55px;
+font-size:11pt;
+line-height:18px;
+color:#e2892c;
+font-weight:normal;
+font-family:arial;
+}
+
+#appstore {
+display:block;
+float:right;
+margin:20px 120px 0 0;
+width:187px;
+height:53px;
+background:url('images/appstore.png') no-repeat top left;
+}
+
+#googleplay {
+display:block;
+clear:right;
+margin:20px 120px 0 0;
+float:right;
+width:187px;
+height:53px;
+background:url('images/googleplay.png') no-repeat top left;
+}
+
+#quotes {
+background:#e5a840;
+width:100%;
+padding:30px 0 20px 0;
+}
+
+#quotes ul {
+width:745px;
+margin:0 auto;
+}
+
+#quotes ul li {
+color:#efe5db;
+font-size:10pt;
+line-height:16px;
+font-weight:normal;
+font-family:arial;
+padding-bottom:10px;
+text-align:center;
+}
+
+#quotes a {
+font-weight:bold;
+font-size:9pt;
+text-decoration:none;
+}
+
+#quotes a:hover {
+text-decoration:underline;
+}
+
+#footer {
+color:#e5a840;
+background:#c08c32;
+width:100%;
+height:70px;
+padding-top:24px;
+text-align:center;
+font-size:9pt;
+font-family:arial;
+}
+
+#footer a {
+color:#efe5db;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#fff;
+}
+
+#social {
+margin:0 auto;
+width:200px;
+height:30px;
+}
